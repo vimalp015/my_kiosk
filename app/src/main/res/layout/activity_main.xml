@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="au.com.rightwayitservices.kiosk.MainActivity">
+
+    <Button
+        android:id="@+id/start_lock_button"
+        android:text="@string/lock_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/remove_device_admin_button"
+        android:text="@string/remove_device_admin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:enabled="true"/>
+
+</RelativeLayout>
